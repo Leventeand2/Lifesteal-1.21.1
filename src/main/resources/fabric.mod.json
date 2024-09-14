@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "lifesteal",
+	"version": "3.0.5",
+	"name": "Healthsteal",
+	"description": "From Lifesteal SMP, added some new things",
+	"authors": [
+		"DaWil__"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "Apache License 2.0",
+	"icon": "assets/lifesteal/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.levente.Lifesteal"
+		],
+		"fabric-datagen": [
+			"net.levente.LifestealDataGenerator"
+		]
+	},
+	"mixins": [
+		"lifesteal.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

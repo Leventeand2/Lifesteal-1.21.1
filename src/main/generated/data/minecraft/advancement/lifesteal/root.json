@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "has_heart": {
+      "conditions": {
+        "items": [
+          {
+            "items": "lifesteal:heart"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/item/heart.png",
+    "description": {
+      "translate": "advancements.heart.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "lifesteal:heart"
+    },
+    "title": {
+      "translate": "advancements.heart.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_heart"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

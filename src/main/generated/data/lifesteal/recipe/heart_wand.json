@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "H": {
+      "item": "lifesteal:heart"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "H",
+    "S",
+    "S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lifesteal:heart_wand"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_heart": {
+      "conditions": {
+        "items": [
+          {
+            "items": "lifesteal:heart"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "lifesteal:heart_wand"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_heart"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lifesteal:heart_wand"
+    ]
+  }
+}

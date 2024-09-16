@@ -12,7 +12,7 @@
     }
   },
   "display": {
-    "background": "minecraft:textures/item/heart.png",
+    "background": "lifesteal:textures/advancements/advancement",
     "description": {
       "translate": "advancements.heart.desc"
     },

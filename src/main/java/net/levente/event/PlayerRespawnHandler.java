@@ -37,13 +37,12 @@ public class PlayerRespawnHandler implements ServerPlayerEvents.AfterRespawn {
         double maxHealth = newPlayer.getMaxHealth();
 
         // Reduce the player's max health by 1 (you can change this logic if needed)
-        setPlayerMaxHealth(newPlayer, maxHealth - 2);
+        setPlayerMaxHealth(newPlayer, maxHealth - 1);
 
         if (maxHealth >= 100) {
             setPlayerMaxHealth(newPlayer, 30);
         }
-        if (maxHealth < 2) {
-            setPlayerMaxHealth(newPlayer, 10);
-        }
+        //ItemScatterer.spawn(world, entity.getX(), entity.getY(), entity.getZ(), stack);
     }
+
 }

@@ -27,7 +27,7 @@ public class AdvancementsProvider extends FabricAdvancementProvider {
                         ModItems.HEART, // The display icon
                         Text.translatable("advancements.heart.title"), // The title
                         Text.translatable("advancements.heart.desc"), // The description
-                        Identifier.of("textures/item/heart.png"), // Background image
+                        Identifier.of("textures/advancements/advancement.png"), // Background image
                         AdvancementFrame.TASK,
                         true, // Show toast top right
                         true, // Announce to chat

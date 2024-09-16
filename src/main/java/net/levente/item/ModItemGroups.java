@@ -20,7 +20,7 @@ public class ModItemGroups {
                     })).build());
 
     public static void registerItemGroups() {
-
+        System.out.println("Registering mod item groups");
     }
 }
 

@@ -12,18 +12,18 @@ import net.minecraft.world.World;
 public class EntityDeathHandler implements ServerLivingEntityEvents.AfterDeath {
 
     public static void registerPlayerDeath() {
-
+        System.out.println("Registered Player Death class");
     }
+
 
     @Override
     public void afterDeath(LivingEntity entity, DamageSource damageSource) {
         if (entity instanceof PlayerEntity) {
             World world = entity.getWorld();
+            ItemStack stack = new ItemStack(ModItems.HEART);
+            ItemEntity item = new ItemEntity(world, entity.getX(), entity.getY(), entity.getZ(), stack);
+            world.spawnEntity(item);
 
-            ItemStack item = new ItemStack(ModItems.HEART);
-            world.spawnEntity(new ItemEntity(world, entity.getX(), entity.getY() + 2, entity.getZ(), item));
         }
-
-
     }
 }

@@ -16,9 +16,10 @@ import net.minecraft.world.World;
 public class UseItemHandler implements UseItemCallback {
 
     // Constructor to register the event
-    public UseItemHandler() {
-        UseItemCallback.EVENT.register(this);
-    }
+    //public UseItemHandler() {
+    //    UseItemCallback.EVENT.register(this);
+
+//    }
 
     @Override
     public TypedActionResult<ItemStack> interact(PlayerEntity player, World world, Hand hand) {

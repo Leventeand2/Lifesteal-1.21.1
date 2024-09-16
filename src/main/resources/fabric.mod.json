@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "lifesteal",
 	"version": "3.0.5",
-	"name": "Healthsteal",
+	"name": "Lifesteal",
 	"description": "From Lifesteal SMP, added some new things",
 	"authors": [
 		"DaWil__"
@@ -32,6 +32,6 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"another-mod": ""
 	}
 }

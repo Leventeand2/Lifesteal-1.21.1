@@ -2,6 +2,7 @@ package net.levente.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.levente.Lifesteal;
+import net.levente.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;
@@ -17,6 +18,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.lifesteal.lifesteal"))
                     .entries(((displayContext, entries) -> {
                         entries.add(ModItems.HEART_WAND);
+                        entries.add(ModBlocks.HEARTSTONE);
                     })).build());
 
     public static void registerItemGroups() {

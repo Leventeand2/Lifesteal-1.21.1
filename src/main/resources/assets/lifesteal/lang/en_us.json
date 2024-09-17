@@ -3,5 +3,9 @@
   "itemgroup.lifesteal.lifesteal": "Healthsteal",
   "item.lifesteal.heart_wand": "Heart Staff",
   "advancements.heart.title": "Health Achivement",
-  "advancements.heart.desc": "You're just getting started! Keep STEALING lives!!"
+  "advancements.heart.desc": "You're just getting started! Keep STEALING lives!!",
+  "advancements.heartstone.title": "Healed by the Heartstone",
+  "advancements.heartstone.desc": "You got healed by something... Who gave you these hearts? What are they?? Nevermind.",
+
+  "block.lifesteal.heartstone_block": "Heartstone"
 }

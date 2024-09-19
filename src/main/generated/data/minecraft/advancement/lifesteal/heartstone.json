@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:lifesteal/root",
+  "criteria": {
+    "healed_heartstone": {
+      "conditions": {
+        "block": "lifesteal:heartstone_block"
+      },
+      "trigger": "minecraft:enter_block"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/advancements/advancement",
+    "description": {
+      "translate": "advancements.heartstone.desc"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "lifesteal:heartstone_block"
+    },
+    "title": {
+      "translate": "advancements.heartstone.title"
+    }
+  },
+  "requirements": [
+    [
+      "healed_heartstone"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

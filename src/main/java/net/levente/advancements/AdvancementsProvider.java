@@ -38,20 +38,5 @@ public class AdvancementsProvider extends FabricAdvancementProvider {
                 )
                 .criterion("has_heart", InventoryChangedCriterion.Conditions.items(ModItems.HEART))
                 .build(consumer, Lifesteal.MOD_ID + "/root");
-        AdvancementEntry heartStoneAdvancement = Advancement.Builder.create()
-                .display(
-
-                        ModBlocks.HEARTSTONE,
-                        Text.translatable("advancements.heartstone.title"),
-                        Text.translatable("advancements.heartstone.desc"),
-                        Identifier.of("textures/advancements/advancement"),
-                        AdvancementFrame.GOAL,
-                        true,
-                        true,
-                        false
-                )
-                .criterion("healed_heartstone", EnterBlockCriterion.Conditions.block(ModBlocks.HEARTSTONE))
-                .parent(rootAdvancement)
-                .build(consumer, Lifesteal.MOD_ID + "/heartstone");
     }
 }

@@ -11,7 +11,7 @@ import net.minecraft.world.World;
 public class Heartstone extends Block {
     public Heartstone(Settings settings) {
         super(settings);
-        settings.strength(4f).requiresTool();
+        settings.strength(12f).requiresTool();
     }
 
     @Override
@@ -19,9 +19,8 @@ public class Heartstone extends Block {
         if (!world.isClient) {
             if (entity.isAlive()) {
                 if (entity instanceof PlayerEntity player) {
-                    float healing = 1.0f;
                     double currentHealth = MaxHealth.currentHealth;
-                    MaxHealth.setPlayerMaxHealth(player, currentHealth + healing);
+                    MaxHealth.setPlayerMaxHealth(player, currentHealth + 1.0f);
                 }
             }
         }

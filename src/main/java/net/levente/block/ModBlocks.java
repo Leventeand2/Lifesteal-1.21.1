@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    public static final Block HEARTSTONE = registerBlock("heartstone_block", new Heartstone(AbstractBlock.Settings.create()));
+    public static final Block HEARTSTONE = registerBlock("heartstone_block", new Heartstone(AbstractBlock.Settings.create().strength(12f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

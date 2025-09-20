@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "lifesteal:block/heartstone"
+    "all": "lifesteal:block/heartstone_block"
   }
 }

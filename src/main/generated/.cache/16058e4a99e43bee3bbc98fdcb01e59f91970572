@@ -1,0 +1,6 @@
+// 1.21.1	2025-09-20T10:12:41.1750012	Lifesteal/Model Definitions
+0133fa502aa704b33ac6fe55a225fe6e8a3f790d assets\lifesteal\blockstates\heartstone_block.json
+d421fe47527a4370552f82cd7655dee6bc8897c8 assets\lifesteal\models\item\heartstone_block.json
+6d9cd0fe138a532b04f03e995671956583e9e88b assets\lifesteal\models\item\heart.json
+44e20eb5e8ff68a57500c32cd808ef538a65a6d8 assets\lifesteal\models\item\heart_wand.json
+0c4f77a346c78e78f79e2f6f741b5d63748ca07e assets\lifesteal\models\block\heartstone_block.json

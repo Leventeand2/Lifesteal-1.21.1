@@ -4,7 +4,6 @@ import net.fabricmc.fabric.api.entity.event.v1.ServerLivingEntityEvents;
 import net.fabricmc.fabric.api.entity.event.v1.ServerPlayerEvents;
 import net.fabricmc.fabric.api.event.player.UseItemCallback;
 import net.levente.block.ModBlocks;
-import net.levente.enchantments.ModEnchantments;
 import net.levente.item.ModItemGroups;
 import net.levente.item.ModItems;
 
@@ -21,6 +20,5 @@ public class EventRegistry {
         EntityDeathHandler.registerPlayerDeath();
         ServerLivingEntityEvents.AFTER_DEATH.register(new EntityDeathHandler());
         ModBlocks.registerModBlocks();
-        ModEnchantments.load();
     }
 }
